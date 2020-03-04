@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity">
+
+    <TextView
+        android:id="@+id/text_detail"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content"
+        android:text="Voce vai participar ?"
+        android:gravity="center"/>
+
+    <View
+        android:id="@+id/linha"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/text_detail"
+        android:background="@color/colorPrimaryDark"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linha"
+        android:text="Confirmar presença"
+        android:textSize="20sp"
+        android:layout_marginTop="270dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
