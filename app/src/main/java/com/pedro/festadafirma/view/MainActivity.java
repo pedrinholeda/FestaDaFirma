@@ -1,4 +1,4 @@
-package com.pedro.festadafirma;
+package com.pedro.festadafirma.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.pedro.festadafirma.R;
 
 public class MainActivity extends AppCompatActivity  implements View.OnClickListener{
 
