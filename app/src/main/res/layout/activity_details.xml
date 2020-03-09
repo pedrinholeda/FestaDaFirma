@@ -12,18 +12,53 @@
         android:id="@+id/text_detail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorBlack"
         android:gravity="center"
-        android:text="Voce vai participar ?"
-        android:textSize="25sp" />
+        android:text="Você vai participar ?"
+        android:textStyle="bold"
+        android:textSize="30sp" />
 
     <View
         android:id="@+id/linha"
         android:layout_width="wrap_content"
         android:layout_height="2dp"
         android:layout_below="@id/text_detail"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="20dp"
         android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/local_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/linha"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorFirst"
+        android:text="Local: Dolce Far Niente"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_below="@id/linha"
+        android:gravity="center"
+        android:textColor="@color/colorFirst"
+        android:text="Águas Claras, Brasília. Villa Mall"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:layout_below="@id/linha"
+        android:gravity="center"
+        android:textColor="@color/colorFirst"
+        android:text="Av. das Castanheiras, 1060"
+        android:textSize="18sp"
+        />
+
 
     <CheckBox
         android:id="@+id/check_participate"
@@ -31,7 +66,20 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/linha"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="270dp"
+        android:textStyle="bold"
+        android:layout_marginTop="220dp"
         android:text="Confirmar presença"
         android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:layout_below="@id/linha"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Lembramos também que no dia do evento teremos um sorteiro com todos os colaboradores presentes. Não deixe de participar! "
+        android:textSize="15sp"
+        />
+
 </RelativeLayout>

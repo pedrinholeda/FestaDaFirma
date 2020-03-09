@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Festa Da Firma</string>
-    <string name="dias_restantes_para_o_fim_do_ano">Dias restantes para o fim do ano</string>
+    <string name="dias_restantes_para_o_fim_do_ano">Dias restantes para a Festa da Firma: </string>
     <string name="dias">dias</string>
     <string name="nao_confirmado">Não confirmado</string>
     <string name="sim">sim</string>
